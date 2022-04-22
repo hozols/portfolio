@@ -66,7 +66,7 @@ export default function Home({ data, pageContext }) {
     <>
       <SEO />
 
-      <div className={grid}>
+    <div className={grid}>
         {projects.map(({ node }, i) => (
           <Project key={i} node={node} images={images} />
         ))}

@@ -32,10 +32,10 @@ beforeAll(() => {
     status: 'ok',
     data: {
       now: {
-        city: 'Lisbon',
-        country: 'Portugal',
-        country_code: 'PT',
-        date_start: '2021-10-01'
+        city: 'Enschede',
+        country: 'Netherlands',
+        country_code: 'NL',
+        date_start: '2022-10-02'
       },
       next: {
         city: 'Barcelona',

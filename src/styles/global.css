@@ -86,7 +86,7 @@ a {
 
 a:hover,
 a:focus {
-  color: #5ebeb1;
+  color: #805ebe;
 }
 
 /* Media */
@@ -108,4 +108,28 @@ figure {
 .gatsby-image-wrapper {
   max-height: 100vh;
   display: block;
+}
+
+.button {
+  width: 200px;
+  height: 50px;
+  background: none;
+  border: 3px solid var(--brand-main-light);
+  border-radius: 100px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 500ms;
+  align-self: center;
+  color: white;
+}
+
+.button:hover {
+  background-color: var(--brand-main-light);
+}
+
+.typewriter {
+  margin: 30px;
+  height: 70px;
 }

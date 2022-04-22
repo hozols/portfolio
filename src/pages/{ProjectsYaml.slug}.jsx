@@ -82,12 +82,9 @@ export const projectQuery = graphql`
       slug
       fields {
         descriptionHtml
-        excerpt
       }
       links {
         title
-        url
-        icon
       }
       techstack
       img {

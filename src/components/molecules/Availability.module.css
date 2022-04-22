@@ -16,7 +16,7 @@
   color: var(--text-color);
   position: fixed;
   bottom: var(--spacer);
-  left: 50%;
+  left: 70%;
   transform: translateX(-50%);
   box-shadow: var(--box-shadow);
 }

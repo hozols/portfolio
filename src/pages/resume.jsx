@@ -9,7 +9,7 @@ export default function Resume() {
   const { education, work, awards } = useResume()
   const items = [
     { content: work, name: 'Work', icon: 'Briefcase' },
-    { content: awards, name: 'Awards', icon: 'Award' },
+    { content: awards, name: 'Awards & Certificates', icon: 'Award' },
     { content: education, name: 'Education', icon: 'BookOpen' }
   ]
 

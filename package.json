@@ -17,7 +17,9 @@
     "test": "NODE_ENV=test npm run lint && jest --coverage -c tests/jest.config.js",
     "test:watch": "NODE_ENV=test npm run lint && jest --coverage --watch -c tests/jest.config.js",
     "deploy:s3": "./scripts/deploy-s3.sh",
-    "new": "babel-node ./scripts/new.js"
+    "new": "babel-node ./scripts/new.js",
+    "type": "module"
+
   },
   "dependencies": {
     "@giphy/js-fetch-api": "^4.1.2",
@@ -39,10 +41,12 @@
     "gatsby-transformer-sharp": "^4.7.0",
     "gatsby-transformer-yaml": "^4.7.0",
     "intersection-observer": "^0.12.0",
+    "ora": "^6.1.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-feather": "^2.0.9",
     "react-helmet": "^6.1.0",
+    "react-simple-typewriter": "^3.0.1",
     "remark": "^13.0.0",
     "remark-breaks": "^2.0.2",
     "remark-html": "^13.0.2",
@@ -51,6 +55,8 @@
     "vcf": "^2.1.1"
   },
   "devDependencies": {
+    "@babel/cli": "^7.17.3",
+    "@babel/core": "^7.17.5",
     "@babel/node": "^7.16.8",
     "@babel/preset-env": "^7.16.11",
     "@loadable/component": "^5.15.2",
@@ -71,7 +77,6 @@
     "jest": "^27.5.1",
     "jest-canvas-mock": "^2.3.1",
     "js-yaml": "^4.1.0",
-    "ora": "^6.0.1",
     "prepend": "^1.0.2",
     "prettier": "^2.5.1",
     "slugify": "^1.6.5",

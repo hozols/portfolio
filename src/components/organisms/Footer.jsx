@@ -15,13 +15,10 @@ const FooterMarkup = ({ meta, year }) => (
     <Networks small />
     <Location />
 
-    <p className={actions}>
+    {/* <p className={actions}>
       <LazyVcard />
-      <a className="u-key" href={meta.gpg}>
-        PGP/GPG key
-      </a>
       <a href={meta.bugs}>Found a bug?</a>
-    </p>
+    </p> */}
     <p className={copyright}>
       <small>
         &copy; {year}{' '}

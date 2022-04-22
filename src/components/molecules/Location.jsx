@@ -43,16 +43,9 @@ export default function Location({ hide }) {
       className={styleLocation}
       {...getAnimationProps(shouldReduceMotion, isSSr)}
     >
-      <Flag countryCode={now?.country_code} />
-      {now?.city} <span>Now</span>
+      <Flag countryCode="NL" />
+      Netherlands <span>Now</span>
       <div className={styleNext}>
-        {next?.city && (
-          <>
-            {isDifferentCountry && <Flag countryCode={next.country_code} />}
-            {next.city}{' '}
-            <span>{relativeTime.from(new Date(next.date_start))}</span>
-          </>
-        )}
       </div>
     </motion.aside>
   ) : null

@@ -1,7 +1,6 @@
 # Dockerfile for local development just installing dependencies.
 # Use together with `docker-compose up`
 FROM node:alpine
-
 RUN mkdir -p /portfolio
 WORKDIR /portfolio
 COPY package.json .

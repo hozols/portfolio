@@ -40,7 +40,7 @@ export default function ResumeItem({ content }) {
     <div className={resumeItem}>
       <span className={time}>
         {dateStart}
-        {dateEnd ? !isSameYear && `–${dateEnd}` : '–present'}{' '}
+        {dateEnd ? !isSameYear && `–${dateEnd}` : ''}{' '}
       </span>
       <h4 className={styleTitle}>{title}</h4>
       <h5 className={styleSubTitle}>{subTitle}</h5>

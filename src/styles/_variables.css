@@ -1,7 +1,7 @@
 :root {
   /* Colors */
   --brand-main: #015565;
-  --brand-cyan: #43a699;
+  --brand-cyan: #3282B8;
   --brand-main-light: #88bec8;
   --brand-light: #e7eef4;
 
@@ -60,7 +60,7 @@
 }
 
 .dark {
-  --body-background-color: #161a1b;
+  --body-background-color: #191919;
   --box-background-color: rgba(255, 255, 255, 0.03);
   --box-shadow: 0 1.3px 5.4px rgba(0, 7, 8, 0.6),
     0 4.5px 18.1px rgba(0, 7, 8, 0.4), 0 20px 81px rgba(0, 7, 8, 0.1);
