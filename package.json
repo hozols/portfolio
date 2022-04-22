@@ -47,7 +47,7 @@
     "remark-breaks": "^2.0.2",
     "remark-html": "^13.0.2",
     "remark-parse": "^9.0.0",
-    "remark-react": "^8.0.0",
+    "remark-react": "^9.0.1",
     "vcf": "^2.1.1"
   },
   "devDependencies": {
